@@ -59,7 +59,7 @@ Steps:
 Actual result: drop-down list Гости displays 21 Взрослых.
 Expected result: drop-down list Гости displays 21 Взрослый.
 
-Attachements: screenshot: 
+Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug4.png
 Environment: Windows 10 32-bit Chrome 90.0
 
 
