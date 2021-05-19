@@ -1,5 +1,5 @@
 1. Summary: Bug1: Field E-mail: Local part accepts more than 64 characters.
-Severuty: Average.
+Severity: Average.
 Steps:
 1. go to https://en.belavia.by/leader/registration/
 2. Contact Information, field E-mail.
@@ -8,4 +8,22 @@ Steps:
 Actual result: Local part accepts more than 64 characters.
 Expected result: the field is highlighted in red (according to a list of valid and invalid examples of emails, according to RFC 2822).
 Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug1.png
+Environment: Windows 10 32-bit Chrome 90.0
+
+
+
+1. Summary: Bug2: Field Пасажыры: displays incorrect word form while choosing 3 passengers.
+Severity: Minor.
+Steps:
+1. Go to https://dc-booking.belavia.by/
+2. Tab Пошук, field Пасажыры.
+3. In the drop-down list choose Дарослы and other passengers to make 3 passengers at all.
+
+Actual result: the field Пасажыры displays 3 Пасажыра.
+Expected result: the field Пасажыры displays 3 Пасажыры.
+
+note:
+When selecting 4 passengers, the same error occurs.
+
+Attachements: screenshot: 
 Environment: Windows 10 32-bit Chrome 90.0
