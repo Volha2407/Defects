@@ -12,13 +12,13 @@ Environment: Windows 10 32-bit Chrome 90.0
 
 
 
-1. Summary: Bug2: Field Пасажыры: displays incorrect word form while choosing 3 passengers.
+2. Summary: Bug2: Field Пасажыры: displays incorrect word form while choosing 3 passengers.
 Severity: Minor.
 Steps:
 1. Go to https://dc-booking.belavia.by/
 2. In the drop-down list of languages, select Беларуская.
-2. Tab Пошук, field Пасажыры.
-3. In the drop-down list choose Дарослы and other passengers to make 3 passengers at all.
+3. Tab Пошук, radio button Туда и зваротна, field Пасажыры.
+4. In the drop-down list choose Дарослы and other passengers to make 3 passengers at all.
 
 Actual result: the field Пасажыры displays 3 Пасажыра.
 Expected result: the field Пасажыры displays 3 Пасажыры.
@@ -27,4 +27,21 @@ note:
 When selecting 4 passengers, the same error occurs.
 
 Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug2.png
+Environment: Windows 10 32-bit Chrome 90.0
+
+
+3. Summary: Bug3: Field Passengers: displays 2 passengers (1 Adult, 1 Infant), while choosing 1 Adult and 2 Infants.
+Severity: Average.
+Steps:
+1. Go to https://dc-booking.belavia.by/
+2. Tab Search, radio button Return, field Passengers.
+3. In the drop-down list choose 1 Adult and 2 Infants.
+
+Actual result: the field Passengers displays 2 passengers (1 Adult, 1 Infant).
+Expected result: the field Пасажыры displays 3 passengers (1 Adult, 2 Infans).
+
+note:
+When selecting 2/3/4/5 adults, you can choose no more than 2/3/4/5 infants
+
+Attachements: screenshot: 
 Environment: Windows 10 32-bit Chrome 90.0
