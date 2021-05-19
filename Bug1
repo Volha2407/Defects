@@ -1,0 +1,11 @@
+1. Summary: Bug1: Field E-mail: Local part accepts more than 64 characters.
+Severuty: Average.
+Steps:
+1. go to https://en.belavia.by/leader/registration/
+2. Contact Information, field E-mail.
+3. Input Local part more than 64 characters.
+
+Actual result: Local part accepts more than 64 characters.
+Expected result: the field is highlighted in red (according to a list of valid and invalid examples of emails, according to RFC 2822).
+Attachements: screenshot: 
+Environment: Windows 10 32-bit Chrome 90.0
