@@ -25,5 +25,5 @@ Expected result: the field Пасажыры displays 3 Пасажыры.
 note:
 When selecting 4 passengers, the same error occurs.
 
-Attachements: screenshot: 
+Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug2.png
 Environment: Windows 10 32-bit Chrome 90.0
