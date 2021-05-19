@@ -63,18 +63,15 @@ Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug4.pn
 Environment: Windows 10 32-bit Chrome 90.0
 
 
-5. Summary: Bug5: Field Passengers: displays 2 passengers (1 Adult, 1 Infant), while choosing 1 Adult and 2 Infants.
-Severity: Average.
+5. Summary: Bug5: Information Office: link support@belavia.by doesn't open the page of web-site, while pushing.
+Severity: minor.
 Steps:
-1. Go to https://dc-booking.belavia.by/
-2. Tab Search, radio button Return, field Passengers.
-3. In the drop-down list choose 1 Adult and 2 Infants.
+1. Go to https://belavia.by/
+2. Go to Information Office.
+3. Push the link support@belavia.by.
 
-Actual result: the field Passengers displays 2 passengers (1 Adult, 1 Infant).
-Expected result: the field Пасажыры displays 3 passengers (1 Adult, 2 Infans).
+Actual result: link support@belavia.by doesn't open the page of web-site.
+Expected result: go to the page by following the link support@belavia.by.
 
-note:
-When selecting 2/3/4/5 adults, you can choose no more than 2/3/4/5 infants
-
-Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug3.png
+Attachements: screenshot: 
 Environment: Windows 10 32-bit Chrome 90.0
