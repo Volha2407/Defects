@@ -73,5 +73,5 @@ Steps:
 Actual result: link support@belavia.by doesn't open the page of web-site.
 Expected result: go to the page by following the link support@belavia.by.
 
-Attachements: screenshot: 
+Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug5.png
 Environment: Windows 10 32-bit Chrome 90.0
