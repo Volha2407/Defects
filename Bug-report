@@ -16,6 +16,7 @@ Environment: Windows 10 32-bit Chrome 90.0
 Severity: Minor.
 Steps:
 1. Go to https://dc-booking.belavia.by/
+2. In the drop-down list of languages, select Беларуская.
 2. Tab Пошук, field Пасажыры.
 3. In the drop-down list choose Дарослы and other passengers to make 3 passengers at all.
 
