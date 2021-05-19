@@ -45,3 +45,36 @@ When selecting 2/3/4/5 adults, you can choose no more than 2/3/4/5 infants
 
 Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug3.png
 Environment: Windows 10 32-bit Chrome 90.0
+
+
+4. Summary: Bug4: Drop-down list Гости: displays 21 Взрослых, while choosing 21 adults.
+Severity: Minor.
+Steps:
+1. Go to https://belavia.by/
+2. In the drop-down list of languages, select Русский.
+2. Tab Отели, drop-down list Гости.
+3. Choose 21 adults.
+4. Note that the word form is incorrect.
+
+Actual result: drop-down list Гости displays 21 Взрослых.
+Expected result: drop-down list Гости displays 21 Взрослый.
+
+Attachements: screenshot: 
+Environment: Windows 10 32-bit Chrome 90.0
+
+
+5. Summary: Bug5: Field Passengers: displays 2 passengers (1 Adult, 1 Infant), while choosing 1 Adult and 2 Infants.
+Severity: Average.
+Steps:
+1. Go to https://dc-booking.belavia.by/
+2. Tab Search, radio button Return, field Passengers.
+3. In the drop-down list choose 1 Adult and 2 Infants.
+
+Actual result: the field Passengers displays 2 passengers (1 Adult, 1 Infant).
+Expected result: the field Пасажыры displays 3 passengers (1 Adult, 2 Infans).
+
+note:
+When selecting 2/3/4/5 adults, you can choose no more than 2/3/4/5 infants
+
+Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug3.png
+Environment: Windows 10 32-bit Chrome 90.0
