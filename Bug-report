@@ -7,5 +7,5 @@ Steps:
 
 Actual result: Local part accepts more than 64 characters.
 Expected result: the field is highlighted in red (according to a list of valid and invalid examples of emails, according to RFC 2822).
-Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug1.png
+Attachements: screenshot: 
 Environment: Windows 10 32-bit Chrome 90.0
