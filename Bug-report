@@ -43,5 +43,5 @@ Expected result: the field Пасажыры displays 3 passengers (1 Adult, 2 In
 note:
 When selecting 2/3/4/5 adults, you can choose no more than 2/3/4/5 infants
 
-Attachements: screenshot: 
+Attachements: screenshot: https://github.com/Volha2407/Defects/blob/main/Bug3.png
 Environment: Windows 10 32-bit Chrome 90.0
